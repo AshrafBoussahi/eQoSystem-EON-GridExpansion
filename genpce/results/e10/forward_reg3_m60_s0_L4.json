@@ -1,0 +1,41 @@
+{
+ "discrete_layers": 4,
+ "n_train": 40850,
+ "n_val": 4540,
+ "best_val_mse": 0.007851369678974152,
+ "steps": 4000,
+ "seconds": 2641.5231577000013,
+ "test_holdout_search": {
+  "n": 22696,
+  "mse": 0.021613155374169028,
+  "mse_mean_baseline": 0.021073951126454733,
+  "sign_acc": 0.4993574491834097,
+  "spearman_per_circuit": 0.023773948305681067,
+  "ratio_true_mean": 0.6186611090113008,
+  "ratio_pred_signs_mean": 0.5225171040170552,
+  "ratio_abs_err": 0.11351344751582997,
+  "ratio_corr": 0.022431356376312845
+ },
+ "test_random": {
+  "n": 500,
+  "mse": 0.025596981246642732,
+  "mse_mean_baseline": 0.030665514223152408,
+  "sign_acc": 0.5267,
+  "spearman_per_circuit": 0.11145737795033199,
+  "ratio_true_mean": 0.5074698795180723,
+  "ratio_pred_signs_mean": 0.5385783132530121,
+  "ratio_abs_err": 0.0795421686746988,
+  "ratio_corr": 0.04694086211993611
+ },
+ "train_fit": {
+  "n": 2000,
+  "mse": 0.020317770783832678,
+  "mse_mean_baseline": 0.03136233023266466,
+  "sign_acc": 0.5518083333333333,
+  "spearman_per_circuit": 0.22109929036580908,
+  "ratio_true_mean": 0.5116204819277108,
+  "ratio_pred_signs_mean": 0.5320843373493975,
+  "ratio_abs_err": 0.07810240963855422,
+  "ratio_corr": 0.04457275265906821
+ }
+}

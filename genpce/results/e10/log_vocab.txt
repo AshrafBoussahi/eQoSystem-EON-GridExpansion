@@ -1,0 +1,37 @@
+pool94: 97 tokens
+  ceiling pool94 T4_s7_final    D_c=0.0166 A_x=0.833 r=0.687 (target 0.855) |c|=0.083 86s
+  ceiling pool94 T4_s8_final    D_c=0.0173 A_x=0.850 r=0.735 (target 0.867) |c|=0.102 88s
+  ceiling pool94 T4_s9_final    D_c=0.0137 A_x=0.950 r=0.843 (target 0.831) |c|=0.112 80s
+  ceiling pool94 T8_s7_final    D_c=0.0246 A_x=0.833 r=0.735 (target 0.880) |c|=0.113 83s
+  ceiling pool94 T8_s8_final    D_c=0.0252 A_x=0.833 r=0.675 (target 0.940) |c|=0.104 73s
+  ceiling pool94 T8_s9_final    D_c=0.0316 A_x=0.783 r=0.711 (target 0.916) |c|=0.087 77s
+  reward  pool94 seed=0 ratio@5k=0.807 final=0.819 1000sh=0.710 |c|=0.076 78s
+  reward  pool94 seed=1 ratio@5k=0.843 final=0.855 1000sh=0.722 |c|=0.053 71s
+  reward  pool94 seed=2 ratio@5k=0.819 final=0.855 1000sh=0.773 |c|=0.093 78s
+  reward  pool94 seed=3 ratio@5k=0.807 final=0.855 1000sh=0.777 |c|=0.080 86s
+  reward  pool94 seed=4 ratio@5k=0.747 final=0.819 1000sh=0.690 |c|=0.065 89s
+pool25: 25 tokens
+  ceiling pool25 T4_s7_final    D_c=0.0160 A_x=0.883 r=0.723 (target 0.855) |c|=0.095 88s
+  ceiling pool25 T4_s8_final    D_c=0.0130 A_x=0.867 r=0.699 (target 0.867) |c|=0.078 91s
+  ceiling pool25 T4_s9_final    D_c=0.0094 A_x=0.950 r=0.771 (target 0.831) |c|=0.135 78s
+  ceiling pool25 T8_s7_final    D_c=0.0304 A_x=0.833 r=0.663 (target 0.880) |c|=0.112 91s
+  ceiling pool25 T8_s8_final    D_c=0.0225 A_x=0.817 r=0.783 (target 0.940) |c|=0.088 91s
+  ceiling pool25 T8_s9_final    D_c=0.0229 A_x=0.867 r=0.747 (target 0.916) |c|=0.092 85s
+  reward  pool25 seed=0 ratio@5k=0.843 final=0.867 1000sh=0.706 |c|=0.051 87s
+  reward  pool25 seed=1 ratio@5k=0.880 final=0.880 1000sh=0.841 |c|=0.140 87s
+  reward  pool25 seed=2 ratio@5k=0.831 final=0.843 1000sh=0.685 |c|=0.053 84s
+  reward  pool25 seed=3 ratio@5k=0.855 final=0.867 1000sh=0.769 |c|=0.098 81s
+  reward  pool25 seed=4 ratio@5k=0.783 final=0.880 1000sh=0.766 |c|=0.065 86s
+
+ceiling by pool:
+            D_c  D_c_at_5000     A_x   ratio  target_ratio  median_abs_corr
+pool                                                                      
+pool25  0.0190       0.0233  0.8694  0.7309        0.8815           0.0998
+pool94  0.0215       0.0267  0.8472  0.7309        0.8815           0.1001
+
+reward search by pool:
+        ratio_5k        ratio_final        ratio_1000shots        median_abs_corr       
+           mean    std        mean    std            mean    std            mean    std
+pool                                                                                   
+pool25    0.839  0.036       0.867  0.015           0.753  0.061           0.082  0.037
+pool94    0.805  0.036       0.841  0.020           0.734  0.039           0.073  0.015

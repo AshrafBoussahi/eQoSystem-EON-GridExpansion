@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qgridx"
+version = "1.0.1"
+description = "Qubit-efficient transmission planning: storage siting and microgrid formation on a six-qubit Pauli correlation encoding, with N-1 security screening."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Achraf Boussahi", email = "ashraf@aiqcommunity.org" }]
+keywords = [
+    "quantum computing",
+    "combinatorial optimization",
+    "Pauli correlation encoding",
+    "generative quantum eigensolver",
+    "power systems",
+    "transmission planning",
+    "energy storage siting",
+    "microgrid",
+    "N-1 security",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "torch>=2.0",
+    "networkx>=3.0",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+# Solving to certified optimality. scipy bundles HiGHS, so this is only needed
+# for the standalone solver interface.
+mip = ["highspy>=1.5"]
+# Submitting circuits to real hardware through qBraid.
+hardware = ["qbraid>=0.9"]
+# Everything, for a full reproduction including the device campaign.
+all = ["highspy>=1.5", "qbraid>=0.9"]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[project.urls]
+Homepage = "https://github.com/ashrafboussahi/qGridX"
+Repository = "https://github.com/ashrafboussahi/qGridX"
+Issues = "https://github.com/ashrafboussahi/qGridX/issues"
+
+[project.scripts]
+qgridx = "qgridx.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+qgridx = [
+    "data/registry/*.csv",
+    "data/rts_gmlc/*.csv.gz",
+    "results/doe_phase3/*.csv",
+    "results/doe_phase3/*.json",
+    "results/hardware/*.csv",
+    "results/maxcut/*.json",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

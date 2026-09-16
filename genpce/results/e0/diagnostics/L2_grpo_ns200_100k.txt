@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\Ashra\AppData\Local\Temp\claude\C--Users-Ashra-Desktop-GQE-PCE-Project\06ca273d-b5e6-4bdc-9741-1c651fdb488d\scratchpad\diag_genpce.py", line 6, in <module>
+    from common import benchmark_instance, cubic_cset
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\experiments\common.py", line 8, in <module>
+    from genpce.pce import CorrelatorSet
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\pce\__init__.py", line 11, in <module>
+    from genpce.pce.loss import RelaxedLossParams, default_alpha, relaxed_loss_np, relaxed_loss_torch
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\pce\loss.py", line 18, in <module>
+    from genpce.problems.maxcut import MaxCutInstance
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\problems\__init__.py", line 10, in <module>
+    from genpce.problems.solvers import best_known, exact_milp, simulated_annealing
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\problems\solvers.py", line 19, in <module>
+    from scipy.optimize import Bounds, LinearConstraint, milp
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\optimize\__init__.py", line 422, in <module>
+    from ._optimize import *
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\optimize\_optimize.py", line 34, in <module>
+    from scipy.linalg import cholesky, issymmetric, LinAlgError
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\scipy\linalg\__init__.py", line 204, in <module>
+    from ._cythonized_array_utils import *
+  File "scipy/linalg/_cythonized_array_utils.pyx", line 1, in init scipy.linalg._cythonized_array_utils
+ImportError: DLL load failed while importing cython_lapack: The paging file is too small for this operation to complete.

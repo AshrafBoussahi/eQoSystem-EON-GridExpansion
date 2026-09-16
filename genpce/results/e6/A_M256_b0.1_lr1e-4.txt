@@ -1,0 +1,14 @@
+reg3_m60_s0 M=256 beta=0.1 cpo=1.0 lr=0.0001 T=1.0 norm=0 H=0.0 k=1 relaxed=0.5 N=48
+  step=  10 evals=  2560 batch mean=0.545 max=0.675 best=0.711 uniq=1.00 pref_acc=0.00 dpo=1.995 nll=157.2 med|c|=0.052 44s
+  step=  20 evals=  5120 batch mean=0.541 max=0.699 best=0.735 uniq=1.00 pref_acc=0.07 dpo=1.278 nll=143.8 med|c|=0.044 90s
+  step=  30 evals=  7680 batch mean=0.539 max=0.747 best=0.747 uniq=1.00 pref_acc=0.00 dpo=2.243 nll=148.7 med|c|=0.095 131s
+  step=  40 evals= 10240 batch mean=0.537 max=0.699 best=0.747 uniq=1.00 pref_acc=0.00 dpo=1.759 nll=145.6 med|c|=0.095 169s
+  step=  50 evals= 12800 batch mean=0.546 max=0.711 best=0.747 uniq=1.00 pref_acc=0.08 dpo=1.414 nll=141.3 med|c|=0.095 206s
+  step=  60 evals= 15360 batch mean=0.540 max=0.687 best=0.747 uniq=1.00 pref_acc=0.01 dpo=1.939 nll=144.6 med|c|=0.095 244s
+  step=  70 evals= 17920 batch mean=0.538 max=0.699 best=0.747 uniq=1.00 pref_acc=0.01 dpo=1.716 nll=141.4 med|c|=0.095 280s
+  step=  80 evals= 20480 batch mean=0.540 max=0.711 best=0.747 uniq=1.00 pref_acc=0.00 dpo=2.334 nll=149.1 med|c|=0.095 315s
+  step=  90 evals= 23040 batch mean=0.537 max=0.699 best=0.759 uniq=1.00 pref_acc=0.00 dpo=2.819 nll=155.2 med|c|=0.041 351s
+  step= 100 evals= 25600 batch mean=0.541 max=0.699 best=0.759 uniq=1.00 pref_acc=0.04 dpo=1.569 nll=138.1 med|c|=0.041 386s
+  step= 110 evals= 28160 batch mean=0.547 max=0.687 best=0.759 uniq=1.00 pref_acc=0.07 dpo=1.433 nll=136.3 med|c|=0.041 422s
+  step= 118 evals= 30000 batch mean=0.543 max=0.663 best=0.759 uniq=1.00 pref_acc=0.21 dpo=1.213 nll=133.6 med|c|=0.041 448s
+DONE reg3_m60_s0 M=256 beta=0.1 cpo=1.0 lr=0.0001 T=1.0 norm=0 H=0.0 k=1 relaxed=0.5 N=48 | best raw=0.759 (+LS 0.928) | eval@T=2 best-of-100=0.663 mean=0.536 | 449s

@@ -1,0 +1,6 @@
+ES reward=cut          lam=0.0  | exact cut=0.831 +LS=0.880 | med|c|=0.053 min|c|=0.001 | shot-decoded cut: 200 shots mean=0.620 min=0.542; 1000 shots mean=0.683 min=0.602 | 87s
+ES reward=margin       lam=0.1  | exact cut=0.867 +LS=0.916 | med|c|=0.086 min|c|=0.013 | shot-decoded cut: 200 shots mean=0.723 min=0.639; 1000 shots mean=0.787 min=0.723 | 89s
+ES reward=margin       lam=0.3  | exact cut=0.867 +LS=0.940 | med|c|=0.080 min|c|=0.001 | shot-decoded cut: 200 shots mean=0.669 min=0.590; 1000 shots mean=0.725 min=0.614 | 87s
+ES reward=margin       lam=1.0  | exact cut=0.675 +LS=0.892 | med|c|=0.238 min|c|=0.113 | shot-decoded cut: 200 shots mean=0.670 min=0.639; 1000 shots mean=0.675 min=0.675 | 87s
+ES reward=relaxed_mix  lam=0.5  | exact cut=0.916 +LS=0.916 | med|c|=0.079 min|c|=0.000 | shot-decoded cut: 200 shots mean=0.733 min=0.651; 1000 shots mean=0.814 min=0.723 | 89s
+ES reward=relaxed_mix  lam=2.0  | exact cut=0.855 +LS=0.916 | med|c|=0.098 min|c|=0.000 | shot-decoded cut: 200 shots mean=0.707 min=0.639; 1000 shots mean=0.775 min=0.723 | 87s

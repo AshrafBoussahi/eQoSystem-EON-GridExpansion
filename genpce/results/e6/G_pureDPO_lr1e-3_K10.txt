@@ -1,0 +1,5 @@
+reg3_m60_s0 K=10 M=256 beta=0.1 cpo=0.0 lr=0.001 T=1.0 norm=1 H=0.0 k=1 relaxed=0.5 N=48
+  step=  10 evals=  2560 batch mean=0.547 max=0.723 best=0.699 uniq=1.00 pref_acc=0.00 dpo=1.778 nll=2.9 med|c|=0.077 168s
+  step=  20 evals=  5120 batch mean=0.573 max=0.699 best=0.759 uniq=0.55 pref_acc=0.00 dpo=1.588 nll=0.3 med|c|=0.075 333s
+  step=  30 evals=  7680 batch mean=0.547 max=0.687 best=0.759 uniq=1.00 pref_acc=0.00 dpo=1.688 nll=2.0 med|c|=0.075 497s
+  step=  40 evals= 10240 batch mean=0.527 max=0.651 best=0.759 uniq=0.89 pref_acc=0.00 dpo=1.576 nll=0.2 med|c|=0.075 672s

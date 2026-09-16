@@ -1,0 +1,2 @@
+reg3_m252_s0     shaped_4               run=0 r_raw=0.761 r_ls=0.908 1000sh=0.684 4000sh=0.719 med|c|=0.049 397s
+reg3_m252_s0     relaxed_only           run=0 r_raw=0.733 r_ls=0.876 1000sh=0.707 4000sh=0.717 med|c|=0.086 403s

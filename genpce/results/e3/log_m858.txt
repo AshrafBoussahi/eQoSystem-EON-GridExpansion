@@ -1,0 +1,1 @@
+reg3_m858_s0     run=0 budget=150000 r_raw=0.661 r_ls=0.882 1000sh=0.556 med|c|=0.011 marks={0.75: None, 0.8: None, 0.85: None, 0.9: None} 3796s

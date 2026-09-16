@@ -1,0 +1,14 @@
+# Runtime dependencies. Pinned by lower bound only: every version above these
+# was exercised during development, and pinning exactly would fight the qBraid
+# base image.
+numpy>=1.24
+scipy>=1.11
+pandas>=2.0
+torch>=2.0
+networkx>=3.0
+matplotlib>=3.7
+
+# Optional. Install with `pip install qgridx[hardware]` to submit circuits to a
+# real device, or `qgridx[all]` for everything.
+# qbraid>=0.9
+# highspy>=1.5

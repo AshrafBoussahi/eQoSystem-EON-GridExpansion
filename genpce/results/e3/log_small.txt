@@ -1,0 +1,10 @@
+  reg3_m60_s0 run=0: ratio 0.75 at 510 evaluations (2s)
+  reg3_m60_s0 run=0: ratio 0.8 at 1010 evaluations (4s)
+  reg3_m60_s0 run=0: ratio 0.85 at 7760 evaluations (33s)
+reg3_m60_s0      run=0 budget=100000 r_raw=0.892 r_ls=0.940 1000sh=0.748 med|c|=0.076 marks={0.75: 510, 0.8: 1010, 0.85: 7760, 0.9: None} 459s
+  reg3_m104_s0 run=0: ratio 0.75 at 1510 evaluations (8s)
+  reg3_m104_s0 run=0: ratio 0.8 at 5010 evaluations (28s)
+reg3_m104_s0     run=0 budget=100000 r_raw=0.831 r_ls=0.930 1000sh=0.761 med|c|=0.123 marks={0.75: 1510, 0.8: 5010, 0.85: None, 0.9: None} 554s
+  reg3_m168_s0 run=0: ratio 0.75 at 1510 evaluations (11s)
+reg3_m168_s0     run=0 budget=100000 r_raw=0.787 r_ls=0.891 1000sh=0.666 med|c|=0.053 marks={0.75: 1510, 0.8: None, 0.85: None, 0.9: None} 665s
+reg3_m252_s0     run=0 budget=100000 r_raw=0.724 r_ls=0.885 1000sh=0.620 med|c|=0.039 marks={0.75: None, 0.8: None, 0.85: None, 0.9: None} 721s

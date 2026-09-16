@@ -1,0 +1,20 @@
+[A] coarse grid, elites: k=1 edits -> improving fraction 0.0010, mean best gain +0.0002
+[A] coarse grid, elites: k=2 edits -> improving fraction 0.0000, mean best gain -0.0387
+[A] coarse grid, elites: k=3 edits -> improving fraction 0.0000, mean best gain -0.0974
+[A] coarse grid, elites: k=4 edits -> improving fraction 0.0000, mean best gain -0.1533
+[B] coarse grid, random edits    seed=0 final raw=0.892 med|c|=0.080 (62s)
+[B] coarse grid, random edits    seed=1 final raw=0.831 med|c|=0.074 (60s)
+[B] coarse grid, random edits    seed=2 final raw=0.831 med|c|=0.068 (59s)
+[B] coarse grid, random edits    mean over 3 seeds: 0.851
+[B] fine grid, random edits      seed=0 final raw=0.843 med|c|=0.143 (63s)
+[B] fine grid, random edits      seed=1 final raw=0.843 med|c|=0.116 (62s)
+[B] fine grid, random edits      seed=2 final raw=0.892 med|c|=0.102 (62s)
+[B] fine grid, random edits      mean over 3 seeds: 0.859
+[B] fine grid, 50% nudge edits   seed=0 final raw=0.880 med|c|=0.101 (63s)
+[B] fine grid, 50% nudge edits   seed=1 final raw=0.855 med|c|=0.098 (63s)
+[B] fine grid, 50% nudge edits   seed=2 final raw=0.880 med|c|=0.119 (62s)
+[B] fine grid, 50% nudge edits   mean over 3 seeds: 0.871
+[B] fine grid, 90% nudge edits   seed=0 final raw=0.759 med|c|=0.081 (63s)
+[B] fine grid, 90% nudge edits   seed=1 final raw=0.795 med|c|=0.078 (62s)
+[B] fine grid, 90% nudge edits   seed=2 final raw=0.916 med|c|=0.088 (61s)
+[B] fine grid, 90% nudge edits   mean over 3 seeds: 0.823

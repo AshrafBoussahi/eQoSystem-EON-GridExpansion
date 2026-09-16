@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "qGridX: qubit-efficient transmission planning with correlation-encoded optimization"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Boussahi
+    given-names: Achraf
+    email: achraftv2004@gmail.com
+    affiliation: "Constantine Quantum Technologies, University Constantine 1 Freres Mentouri"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/ashrafboussahi/qGridX"
+abstract: >-
+  qGridX solves transmission planning problems on a handful of qubits. Each
+  binary decision is stored in the sign of one multi-qubit Pauli correlation, so
+  an n-qubit register carries 3*C(n,k) decisions and the device runs exactly
+  three circuits at any problem size. A decoder-only transformer writes the
+  circuit and is trained only on the cost of fully decoded, budget-feasible
+  plans, so no gradient crosses into the quantum device. The package includes
+  storage siting and microgrid formation models built from DC optimal power
+  flow, an N-1 security screen, and the device execution path used to measure
+  the encoding on a 108-qubit superconducting processor.
+keywords:
+  - quantum computing
+  - combinatorial optimization
+  - Pauli correlation encoding
+  - generative quantum eigensolver
+  - power systems
+  - transmission planning
+  - N-1 security

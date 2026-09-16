@@ -1,0 +1,19 @@
+reg3_m858_s0     ES     run=0 r_raw=0.651 r_ls=0.894 1000sh=0.560 4000sh=0.568 med|c|=0.014 523s
+reg3_m858_s0     RANDOM run=0 r_raw=0.601
+reg3_m858_s0     ES     run=1 r_raw=0.665 r_ls=0.879 1000sh=0.590 4000sh=0.605 med|c|=0.031 602s
+reg3_m858_s0     RANDOM run=1 r_raw=0.604
+reg3_m858_s0     VQA L=4 init=0 steps=1500 evals=373500 r_raw=0.673 r_ls=0.876 1000sh=0.669 med|c|=0.107
+reg3_m858_s0     VQA L=8 init=0 steps=1500 evals=745500 r_raw=0.716 r_ls=0.885 1000sh=0.706 med|c|=0.128
+reg3_m858_s1     ES     run=0 r_raw=0.659 r_ls=0.888 1000sh=0.566 4000sh=0.581 med|c|=0.012 552s
+reg3_m858_s1     RANDOM run=0 r_raw=0.605
+reg3_m858_s1     ES     run=1 r_raw=0.649 r_ls=0.873 1000sh=0.565 4000sh=0.578 med|c|=0.016 567s
+reg3_m858_s1     RANDOM run=1 r_raw=0.607
+reg3_m858_s1     VQA L=4 init=0 steps=1500 evals=373500 r_raw=0.680 r_ls=0.877 1000sh=0.673 med|c|=0.109
+reg3_m858_s1     VQA L=8 init=0 steps=1078 evals=535766 r_raw=0.728 r_ls=0.895 1000sh=0.711 med|c|=0.100
+er4_m858_s0      ES     run=0 r_raw=0.694 r_ls=0.878 1000sh=0.607 4000sh=0.614 med|c|=0.016 540s
+er4_m858_s0      RANDOM run=0 r_raw=0.642
+er4_m858_s0      ES     run=1 r_raw=0.688 r_ls=0.869 1000sh=0.602 4000sh=0.613 med|c|=0.011 574s
+er4_m858_s0      RANDOM run=1 r_raw=0.636
+er4_m858_s0      VQA L=4 init=0 steps=1500 evals=373500 r_raw=0.699 r_ls=0.880 1000sh=0.694 med|c|=0.111
+er4_m858_s0      VQA L=8 init=0 steps=1500 evals=745500 r_raw=0.765 r_ls=0.888 1000sh=0.746 med|c|=0.094
+er4_m858_s1      ES     run=0 r_raw=0.705 r_ls=0.870 1000sh=0.605 4000sh=0.621 med|c|=0.012 532s

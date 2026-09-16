@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "Pauli Correlation Encoding for Distribution Grid Expansion Planning: Phase 1 concept proposal and companion code (team eQoSystem, E.ON problem statement, 2026 Global Quantum + AI Challenge)"
+message: "If you use this repository, please cite it as below. The qGridX package has its own citation file in qgridx/CITATION.cff."
+type: software
+authors:
+  - family-names: Boussahi
+    given-names: Achraf
+    email: ashraf@aiqcommunity.org
+    affiliation: "AiQC; Constantine Quantum Technologies; ESI Sidi Bel Abbes"
+  - family-names: Chekroun
+    given-names: Abir
+    affiliation: "AiQC; ESI Sidi Bel Abbes"
+  - family-names: Lourghi
+    given-names: Zakaria
+    affiliation: "AiQC; ESI Sidi Bel Abbes"
+  - family-names: Assal
+    given-names: Mouadh Abderrahmane
+    affiliation: "AiQC"
+  - family-names: Menacer
+    given-names: Hiba
+version: 1.0.0
+date-released: 2026-09-16
+repository-code: "https://github.com/AshrafBoussahi/eQoSystem-EON-GridExpansion"
+abstract: >-
+  Concept proposal and companion code for solving the distribution grid
+  expansion problem (build-or-no-build line decisions that reduce congestion)
+  with Pauli correlation encoding: an n-qubit register carries up to 3*C(n,k)
+  decisions and the device runs three measurement settings at any problem
+  size. The repository holds the proposal, the qGridX grid planning package
+  (power flow, encoding, transformer circuit writer, decoder, N-1 screening,
+  hardware path) and the genpce Qiskit-native circuit-synthesis library
+  (discrete gradient-free circuit search validated against variational PCE up
+  to 858 variables on 13 qubits).
+keywords:
+  - quantum computing
+  - combinatorial optimization
+  - Pauli correlation encoding
+  - distribution grid expansion planning
+  - network congestion
+  - power systems
+  - Qiskit

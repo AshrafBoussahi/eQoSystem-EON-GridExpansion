@@ -1,0 +1,26 @@
+[source] reg3_m60_s0: ES best score 1.283; enumerating 160 × 1152 children ...
+[source] elite : parent ratio 0.863 | improving edits 0.003 | best single edit gain +0.005 ratio | edits with Δcut=0: 0.01
+[source] mid   : parent ratio 0.618 | improving edits 0.269 | best single edit gain +0.178 ratio | edits with Δcut=0: 0.09
+[source] random: parent ratio 0.525 | improving edits 0.552 | best single edit gain +0.180 ratio | edits with Δcut=0: 0.11
+[target] reg3_m60_s1: ES best score 1.330; enumerating 160 × 1152 children ...
+[target] elite : parent ratio 0.887 | improving edits 0.006 | best single edit gain +0.002 ratio | edits with Δcut=0: 0.03
+[target] mid   : parent ratio 0.658 | improving edits 0.199 | best single edit gain +0.174 ratio | edits with Δcut=0: 0.09
+[target] random: parent ratio 0.566 | improving edits 0.436 | best single edit gain +0.156 ratio | edits with Δcut=0: 0.12
+sensitivity by layer (elite parents, mean ΔR): [-0.22419999539852142, -0.271699994802475, -0.33570000529289246, -0.31029999256134033, -0.2888000011444092, -0.35920000076293945, -0.35409998893737793, -0.2777999937534332]
+geometry: {'spearman_dcnorm_vs_absdR': 0.4109095401284127, 'spearman_dcnorm_vs_absdcut': 0.36238165098270353, 'frac_edits_dcut_zero': 0.06816666666666667, 'median_dcnorm_single_edit': 0.5888288617134094}
+ hamming  mean_abs_dscore  mean_cut_ratio
+       1         0.318090        0.659679
+       2         0.398684        0.609237
+       4         0.489362        0.560321
+       8         0.517673        0.545382
+      16         0.519751        0.545783
+      32         0.529505        0.539518
+
+Learner matrix (Spearman over all single edits; hit@10 = predicted best edit is a true top-10 edit; gains in reward units ×100):
+  random                       | held-out : spearman=0.009 hit@10=0.00 rank=539 top5-gain=-7.09 vs rand -8.92 (×100) improving@5=0.31/0.30 || unseen in: spearman=0.000 hit@10=0.00 rank=577 top5-gain=-14.13 vs rand -13.83 (×100) improving@5=0.19/0.19
+  MLP one-hot, MSE             | held-out : spearman=0.457 hit@10=0.09 rank=304 top5-gain=+0.05 vs rand -8.92 (×100) improving@5=0.35/0.30 || unseen in: spearman=-0.074 hit@10=0.01 rank=549 top5-gain=-20.50 vs rand -13.83 (×100) improving@5=0.16/0.19
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+  Transformer, MSE             | held-out : spearman=0.433 hit@10=0.12 rank=387 top5-gain=-0.40 vs rand -8.92 (×100) improving@5=0.38/0.30 || unseen in: spearman=0.076 hit@10=0.02 rank=472 top5-gain=-9.77 vs rand -13.83 (×100) improving@5=0.20/0.19
+  Transformer, listwise        | held-out : spearman=0.054 hit@10=0.19 rank=291 top5-gain=+0.95 vs rand -8.92 (×100) improving@5=0.39/0.30 || unseen in: spearman=0.027 hit@10=0.00 rank=655 top5-gain=-15.78 vs rand -13.83 (×100) improving@5=0.18/0.19
+  Transformer, MSE + Δc head   | held-out : spearman=0.423 hit@10=0.09 rank=345 top5-gain=-0.07 vs rand -8.92 (×100) improving@5=0.40/0.30 || unseen in: spearman=0.244 hit@10=0.02 rank=321 top5-gain=-4.60 vs rand -13.83 (×100) improving@5=0.25/0.19

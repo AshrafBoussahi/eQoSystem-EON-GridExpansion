@@ -1,0 +1,152 @@
+instance reg3_m60_s0: m=60 n=6 best_known=83.0 pool=25 tokens
+28 targets (10 held out)
+  L=4 T4_s0_final      hold=False target_r=0.843 | D_c=0.0206 (rand 0.0956) A_x=0.867 r=0.651 1000sh=0.666 |c|=0.162 42s
+  L=4 T4_s0_q25        hold=False target_r=0.843 | D_c=0.0194 (rand 0.0952) A_x=0.850 r=0.639 1000sh=0.661 |c|=0.134 45s
+  L=4 T4_s0_q50        hold=False target_r=0.843 | D_c=0.0188 (rand 0.0976) A_x=0.867 r=0.699 1000sh=0.677 |c|=0.135 42s
+  L=4 T4_s1_final      hold=False target_r=0.843 | D_c=0.0325 (rand 0.0849) A_x=0.667 r=0.627 1000sh=0.615 |c|=0.048 41s
+  L=4 T4_s2_final      hold=False target_r=0.928 | D_c=0.0322 (rand 0.0856) A_x=0.667 r=0.639 1000sh=0.630 |c|=0.054 40s
+  L=4 T4_s3_final      hold=False target_r=0.795 | D_c=0.0264 (rand 0.1066) A_x=0.917 r=0.735 1000sh=0.690 |c|=0.103 41s
+  L=4 T4_s4_final      hold=False target_r=0.831 | D_c=0.0187 (rand 0.0902) A_x=0.817 r=0.699 1000sh=0.680 |c|=0.110 40s
+  L=4 T4_s5_final      hold=False target_r=0.880 | D_c=0.0217 (rand 0.0982) A_x=0.883 r=0.747 1000sh=0.732 |c|=0.112 40s
+  L=4 T4_s6_final      hold=False target_r=0.819 | D_c=0.0163 (rand 0.0784) A_x=0.800 r=0.627 1000sh=0.654 |c|=0.095 45s
+  L=4 T4_s7_final      hold=True  target_r=0.855 | D_c=0.0185 (rand 0.0791) A_x=0.817 r=0.675 1000sh=0.690 |c|=0.064 46s
+  L=4 T4_s8_final      hold=True  target_r=0.867 | D_c=0.0247 (rand 0.0715) A_x=0.750 r=0.711 1000sh=0.663 |c|=0.051 40s
+  L=4 T4_s9_final      hold=True  target_r=0.831 | D_c=0.0079 (rand 0.0843) A_x=0.983 r=0.795 1000sh=0.781 |c|=0.173 42s
+  L=4 T4_s9_q25        hold=True  target_r=0.831 | D_c=0.0165 (rand 0.0890) A_x=0.833 r=0.663 1000sh=0.708 |c|=0.152 41s
+  L=4 T4_s9_q50        hold=True  target_r=0.831 | D_c=0.0206 (rand 0.0876) A_x=0.850 r=0.675 1000sh=0.675 |c|=0.131 41s
+  L=4 T8_s0_final      hold=False target_r=0.952 | D_c=0.0294 (rand 0.0911) A_x=0.833 r=0.687 1000sh=0.672 |c|=0.069 40s
+  L=4 T8_s0_q25        hold=False target_r=0.892 | D_c=0.0240 (rand 0.0834) A_x=0.817 r=0.639 1000sh=0.649 |c|=0.114 39s
+  L=4 T8_s0_q50        hold=False target_r=0.952 | D_c=0.0412 (rand 0.0859) A_x=0.700 r=0.614 1000sh=0.583 |c|=0.042 42s
+  L=4 T8_s1_final      hold=False target_r=0.928 | D_c=0.0292 (rand 0.0938) A_x=0.833 r=0.735 1000sh=0.741 |c|=0.110 43s
+  L=4 T8_s2_final      hold=False target_r=0.867 | D_c=0.0300 (rand 0.0973) A_x=0.867 r=0.699 1000sh=0.700 |c|=0.087 44s
+  L=4 T8_s3_final      hold=False target_r=0.976 | D_c=0.0367 (rand 0.0946) A_x=0.767 r=0.735 1000sh=0.654 |c|=0.049 46s
+  L=4 T8_s4_final      hold=False target_r=0.940 | D_c=0.0441 (rand 0.0919) A_x=0.733 r=0.602 1000sh=0.608 |c|=0.035 40s
+  L=4 T8_s5_final      hold=False target_r=0.988 | D_c=0.0336 (rand 0.0955) A_x=0.800 r=0.699 1000sh=0.698 |c|=0.096 38s
+  L=4 T8_s6_final      hold=False target_r=0.988 | D_c=0.0290 (rand 0.0910) A_x=0.850 r=0.831 1000sh=0.802 |c|=0.110 38s
+  L=4 T8_s7_final      hold=True  target_r=0.880 | D_c=0.0385 (rand 0.0950) A_x=0.717 r=0.627 1000sh=0.617 |c|=0.062 43s
+  L=4 T8_s8_final      hold=True  target_r=0.940 | D_c=0.0294 (rand 0.0854) A_x=0.783 r=0.663 1000sh=0.708 |c|=0.078 46s
+  L=4 T8_s9_final      hold=True  target_r=0.916 | D_c=0.0289 (rand 0.0841) A_x=0.800 r=0.699 1000sh=0.675 |c|=0.088 43s
+  L=4 T8_s9_q25        hold=True  target_r=0.916 | D_c=0.0227 (rand 0.0807) A_x=0.817 r=0.711 1000sh=0.705 |c|=0.087 44s
+  L=4 T8_s9_q50        hold=True  target_r=0.916 | D_c=0.0315 (rand 0.0847) A_x=0.767 r=0.699 1000sh=0.711 |c|=0.076 45s
+forward L=4: train 40850 | held-out search pairs mse=0.0216 (mean-baseline 0.0211) sign_acc=0.499 ratio_abs_err=0.114 | random mse=0.0256 sign_acc=0.527 (2642s)
+inverse L=4: train 41301 pairs, val NLL/token 0.808 (uniform 3.219) 2979s
+  L=4 T4_s7_final      target_r=0.855
+      random                 K=  1 D_c=0.0750 A_x=0.511 r=0.531 |c|=0.020
+      random                 K=100 D_c=0.0474 A_x=0.550 r=0.675 |c|=0.008
+      generator_T1.0         K=  1 D_c=0.0671 A_x=0.528 r=0.554 |c|=0.047
+      generator_T1.0         K=100 D_c=0.0430 A_x=0.683 r=0.554 |c|=0.038
+      generator+filter_T1.0  K=  1 D_c=0.0636 A_x=0.520 r=0.540 |c|=0.035
+      generator+filter_T1.0  K=100 D_c=0.0426 A_x=0.550 r=0.578 |c|=0.000
+      generator_T0.7         K=  1 D_c=0.0626 A_x=0.544 r=0.576 |c|=0.066
+      generator_T0.7         K=100 D_c=0.0437 A_x=0.483 r=0.554 |c|=0.033
+      nearest_train          K=  1 D_c=0.0340 A_x=0.633 r=0.542 |c|=0.040
+      nearest_train          K=100 D_c=0.0340 A_x=0.633 r=0.542 |c|=0.040
+      search_ceiling         K=  0 D_c=0.0185 A_x=0.817 r=0.675 |c|=0.064
+  L=4 T4_s8_final      target_r=0.867
+      random                 K=  1 D_c=0.0680 A_x=0.504 r=0.499 |c|=0.018
+      random                 K=100 D_c=0.0384 A_x=0.550 r=0.470 |c|=0.000
+      generator_T1.0         K=  1 D_c=0.0567 A_x=0.547 r=0.578 |c|=0.075
+      generator_T1.0         K=100 D_c=0.0282 A_x=0.617 r=0.663 |c|=0.059
+      generator+filter_T1.0  K=  1 D_c=0.0330 A_x=0.615 r=0.629 |c|=0.053
+      generator+filter_T1.0  K=100 D_c=0.0250 A_x=0.667 r=0.675 |c|=0.063
+      generator_T0.7         K=  1 D_c=0.0547 A_x=0.591 r=0.622 |c|=0.121
+      generator_T0.7         K=100 D_c=0.0302 A_x=0.600 r=0.675 |c|=0.082
+      nearest_train          K=  1 D_c=0.0213 A_x=0.717 r=0.639 |c|=0.050
+      nearest_train          K=100 D_c=0.0213 A_x=0.717 r=0.639 |c|=0.050
+      search_ceiling         K=  0 D_c=0.0247 A_x=0.750 r=0.711 |c|=0.051
+  L=4 T4_s9_final      target_r=0.831
+      random                 K=  1 D_c=0.0808 A_x=0.504 r=0.526 |c|=0.018
+      random                 K=100 D_c=0.0496 A_x=0.600 r=0.470 |c|=0.000
+      generator_T1.0         K=  1 D_c=0.0705 A_x=0.532 r=0.573 |c|=0.048
+      generator_T1.0         K=100 D_c=0.0476 A_x=0.633 r=0.639 |c|=0.042
+      generator+filter_T1.0  K=  1 D_c=0.0618 A_x=0.556 r=0.577 |c|=0.052
+      generator+filter_T1.0  K=100 D_c=0.0471 A_x=0.633 r=0.639 |c|=0.048
+      generator_T0.7         K=  1 D_c=0.0616 A_x=0.575 r=0.619 |c|=0.062
+      generator_T0.7         K=100 D_c=0.0472 A_x=0.667 r=0.639 |c|=0.053
+      nearest_train          K=  1 D_c=0.0392 A_x=0.767 r=0.639 |c|=0.052
+      nearest_train          K=100 D_c=0.0392 A_x=0.767 r=0.639 |c|=0.052
+      search_ceiling         K=  0 D_c=0.0079 A_x=0.983 r=0.795 |c|=0.173
+  L=4 T4_s9_q25        target_r=0.831
+      random                 K=  1 D_c=0.0882 A_x=0.500 r=0.501 |c|=0.023
+      random                 K=100 D_c=0.0534 A_x=0.633 r=0.422 |c|=0.000
+      generator_T1.0         K=  1 D_c=0.0716 A_x=0.546 r=0.585 |c|=0.053
+      generator_T1.0         K=100 D_c=0.0527 A_x=0.600 r=0.590 |c|=0.039
+      generator+filter_T1.0  K=  1 D_c=0.0666 A_x=0.555 r=0.569 |c|=0.055
+      generator+filter_T1.0  K=100 D_c=0.0487 A_x=0.683 r=0.578 |c|=0.033
+      generator_T0.7         K=  1 D_c=0.0659 A_x=0.572 r=0.640 |c|=0.072
+      generator_T0.7         K=100 D_c=0.0463 A_x=0.583 r=0.578 |c|=0.029
+      nearest_train          K=  1 D_c=0.0424 A_x=0.767 r=0.639 |c|=0.052
+      nearest_train          K=100 D_c=0.0424 A_x=0.767 r=0.639 |c|=0.052
+      search_ceiling         K=  0 D_c=0.0165 A_x=0.833 r=0.663 |c|=0.152
+  L=4 T4_s9_q50        target_r=0.831
+      random                 K=  1 D_c=0.0885 A_x=0.501 r=0.520 |c|=0.029
+      random                 K=100 D_c=0.0547 A_x=0.567 r=0.566 |c|=0.016
+      generator_T1.0         K=  1 D_c=0.0709 A_x=0.543 r=0.575 |c|=0.051
+      generator_T1.0         K=100 D_c=0.0528 A_x=0.600 r=0.518 |c|=0.054
+      generator+filter_T1.0  K=  1 D_c=0.0647 A_x=0.553 r=0.569 |c|=0.056
+      generator+filter_T1.0  K=100 D_c=0.0477 A_x=0.717 r=0.578 |c|=0.037
+      generator_T0.7         K=  1 D_c=0.0637 A_x=0.571 r=0.647 |c|=0.072
+      generator_T0.7         K=100 D_c=0.0534 A_x=0.467 r=0.590 |c|=0.031
+      nearest_train          K=  1 D_c=0.0420 A_x=0.767 r=0.639 |c|=0.052
+      nearest_train          K=100 D_c=0.0420 A_x=0.767 r=0.639 |c|=0.052
+      search_ceiling         K=  0 D_c=0.0206 A_x=0.850 r=0.675 |c|=0.131
+  L=4 T8_s7_final      target_r=0.880
+      random                 K=  1 D_c=0.0942 A_x=0.495 r=0.511 |c|=0.021
+      random                 K=100 D_c=0.0593 A_x=0.667 r=0.590 |c|=0.015
+      generator_T1.0         K=  1 D_c=0.0877 A_x=0.507 r=0.517 |c|=0.020
+      generator_T1.0         K=100 D_c=0.0578 A_x=0.583 r=0.530 |c|=0.060
+      generator+filter_T1.0  K=  1 D_c=0.0856 A_x=0.499 r=0.517 |c|=0.020
+      generator+filter_T1.0  K=100 D_c=0.0582 A_x=0.567 r=0.566 |c|=0.000
+      generator_T0.7         K=  1 D_c=0.0971 A_x=0.514 r=0.515 |c|=0.022
+      generator_T0.7         K=100 D_c=0.0633 A_x=0.550 r=0.313 |c|=0.000
+      nearest_train          K=  1 D_c=0.0522 A_x=0.683 r=0.554 |c|=0.020
+      nearest_train          K=100 D_c=0.0522 A_x=0.683 r=0.554 |c|=0.020
+      search_ceiling         K=  0 D_c=0.0385 A_x=0.717 r=0.627 |c|=0.062
+  L=4 T8_s8_final      target_r=0.940
+      random                 K=  1 D_c=0.0827 A_x=0.495 r=0.523 |c|=0.018
+      random                 K=100 D_c=0.0525 A_x=0.600 r=0.627 |c|=0.002
+      generator_T1.0         K=  1 D_c=0.0578 A_x=0.588 r=0.630 |c|=0.084
+      generator_T1.0         K=100 D_c=0.0419 A_x=0.633 r=0.651 |c|=0.087
+      generator+filter_T1.0  K=  1 D_c=0.0531 A_x=0.598 r=0.626 |c|=0.079
+      generator+filter_T1.0  K=100 D_c=0.0402 A_x=0.633 r=0.675 |c|=0.077
+      generator_T0.7         K=  1 D_c=0.0479 A_x=0.612 r=0.683 |c|=0.097
+      generator_T0.7         K=100 D_c=0.0430 A_x=0.633 r=0.699 |c|=0.095
+      nearest_train          K=  1 D_c=0.0347 A_x=0.767 r=0.651 |c|=0.077
+      nearest_train          K=100 D_c=0.0347 A_x=0.767 r=0.651 |c|=0.077
+      search_ceiling         K=  0 D_c=0.0294 A_x=0.783 r=0.663 |c|=0.078
+  L=4 T8_s9_final      target_r=0.916
+      random                 K=  1 D_c=0.0813 A_x=0.497 r=0.506 |c|=0.019
+      random                 K=100 D_c=0.0514 A_x=0.550 r=0.614 |c|=0.002
+      generator_T1.0         K=  1 D_c=0.0541 A_x=0.636 r=0.715 |c|=0.103
+      generator_T1.0         K=100 D_c=0.0417 A_x=0.617 r=0.759 |c|=0.092
+      generator+filter_T1.0  K=  1 D_c=0.0534 A_x=0.612 r=0.676 |c|=0.092
+      generator+filter_T1.0  K=100 D_c=0.0422 A_x=0.683 r=0.783 |c|=0.074
+      generator_T0.7         K=  1 D_c=0.0462 A_x=0.678 r=0.819 |c|=0.111
+      generator_T0.7         K=100 D_c=0.0447 A_x=0.683 r=0.831 |c|=0.110
+      nearest_train          K=  1 D_c=0.0415 A_x=0.633 r=0.675 |c|=0.084
+      nearest_train          K=100 D_c=0.0415 A_x=0.633 r=0.675 |c|=0.084
+      search_ceiling         K=  0 D_c=0.0289 A_x=0.800 r=0.699 |c|=0.088
+  L=4 T8_s9_q25        target_r=0.916
+      random                 K=  1 D_c=0.0831 A_x=0.499 r=0.502 |c|=0.020
+      random                 K=100 D_c=0.0494 A_x=0.533 r=0.458 |c|=0.026
+      generator_T1.0         K=  1 D_c=0.0478 A_x=0.656 r=0.771 |c|=0.106
+      generator_T1.0         K=100 D_c=0.0407 A_x=0.633 r=0.723 |c|=0.076
+      generator+filter_T1.0  K=  1 D_c=0.0521 A_x=0.603 r=0.670 |c|=0.093
+      generator+filter_T1.0  K=100 D_c=0.0403 A_x=0.683 r=0.807 |c|=0.098
+      generator_T0.7         K=  1 D_c=0.0443 A_x=0.682 r=0.827 |c|=0.110
+      generator_T0.7         K=100 D_c=0.0415 A_x=0.633 r=0.795 |c|=0.098
+      nearest_train          K=  1 D_c=0.0396 A_x=0.633 r=0.675 |c|=0.048
+      nearest_train          K=100 D_c=0.0396 A_x=0.633 r=0.675 |c|=0.048
+      search_ceiling         K=  0 D_c=0.0227 A_x=0.817 r=0.711 |c|=0.087
+  L=4 T8_s9_q50        target_r=0.916
+      random                 K=  1 D_c=0.0860 A_x=0.498 r=0.508 |c|=0.026
+      random                 K=100 D_c=0.0511 A_x=0.633 r=0.578 |c|=0.032
+      generator_T1.0         K=  1 D_c=0.0531 A_x=0.638 r=0.725 |c|=0.104
+      generator_T1.0         K=100 D_c=0.0435 A_x=0.717 r=0.855 |c|=0.112
+      generator+filter_T1.0  K=  1 D_c=0.0557 A_x=0.608 r=0.654 |c|=0.099
+      generator+filter_T1.0  K=100 D_c=0.0431 A_x=0.700 r=0.843 |c|=0.113
+      generator_T0.7         K=  1 D_c=0.0482 A_x=0.675 r=0.796 |c|=0.110
+      generator_T0.7         K=100 D_c=0.0452 A_x=0.700 r=0.699 |c|=0.086
+      nearest_train          K=  1 D_c=0.0421 A_x=0.633 r=0.675 |c|=0.048
+      nearest_train          K=100 D_c=0.0421 A_x=0.633 r=0.675 |c|=0.048
+      search_ceiling         K=  0 D_c=0.0315 A_x=0.767 r=0.699 |c|=0.076

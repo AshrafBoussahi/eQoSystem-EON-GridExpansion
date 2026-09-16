@@ -1,0 +1,4 @@
+ES  m=252 layers= 8 N= 72 | raw=0.724 med|c|=0.034 149s
+ES  m=252 layers=16 N=144 | raw=0.727 med|c|=0.032 286s
+ES  m=252 layers=24 N=216 | raw=0.744 med|c|=0.029 401s
+VQA m=252 layers=16 Np=336 steps=1500 evals=1009500 | raw=0.871 | @20k=0.707 @100k=0.750 422s

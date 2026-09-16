@@ -1,0 +1,58 @@
+H=0.02 mut=0.5 elite=0.1 template=1 lr=0.001 iter=5 reward=cut pool=fine N=48 ns=50 loss=grpo+cem buf=1000 | vocab 25
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\gqe.py:278: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:839.)
+  return float(loss)
+  ep=  0 evals=   50 beta=1.02 mean=0.549 max_ep=0.675 best=0.675 ls=0.892 uniq=1.00 2q=20 H=3.08/3.22 min|c|=0.003    5s
+  ep= 20 evals= 1050 beta=1.42 mean=0.542 max_ep=0.675 best=0.699 ls=0.904 uniq=1.00 2q=20 H=1.31/3.22 min|c|=0.000  133s
+  ep= 40 evals= 2050 beta=1.82 mean=0.545 max_ep=0.687 best=0.735 ls=0.867 uniq=1.00 2q=20 H=0.86/3.22 min|c|=0.000  268s
+  ep= 60 evals= 3050 beta=2.22 mean=0.541 max_ep=0.711 best=0.747 ls=0.867 uniq=1.00 2q=20 H=0.79/3.22 min|c|=0.000  389s
+  ep= 80 evals= 4050 beta=2.62 mean=0.558 max_ep=0.699 best=0.747 ls=0.867 uniq=1.00 2q=20 H=0.71/3.22 min|c|=0.001  507s
+  ep=100 evals= 5050 beta=3.02 mean=0.529 max_ep=0.639 best=0.747 ls=0.867 uniq=1.00 2q=20 H=0.81/3.22 min|c|=0.001  617s
+  ep=120 evals= 6050 beta=3.42 mean=0.539 max_ep=0.699 best=0.747 ls=0.867 uniq=1.00 2q=20 H=0.78/3.22 min|c|=0.003  717s
+Traceback (most recent call last):
+  File "C:\Users\Ashra\AppData\Local\Temp\claude\C--Users-Ashra-Desktop-GQE-PCE-Project\06ca273d-b5e6-4bdc-9741-1c651fdb488d\scratchpad\diag_genpce.py", line 48, in <module>
+    tr.run(callback=cb)
+    ~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\gqe.py", line 324, in run
+    losses = [self._update() for _ in range(self.cfg.n_iter)]
+              ~~~~~~~~~~~~^^
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\gqe.py", line 273, in _update
+    loss = loss - self.cfg.entropy_weight * self._entropy(torch.as_tensor(tokens_h, device=self.device))
+                                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\gqe.py", line 241, in _entropy
+    w = self.model(torch.cat([bos, tokens[:, :-1]], dim=1))
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\model\gpt.py", line 117, in forward
+    x = block(x, None if cache is None else cache[i])
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\model\gpt.py", line 75, in forward
+    x = x + self.attn(self.ln1(x), cache)
+                      ~~~~~~~~^^^
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\modules\normalization.py", line 228, in forward
+    return F.layer_norm(
+           ~~~~~~~~~~~~^
+        input, self.normalized_shape, self.weight, self.bias, self.eps
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ashra\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\torch\nn\functional.py", line 2939, in layer_norm
+    return torch.layer_norm(
+           ~~~~~~~~~~~~~~~~^
+        input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 1228800 bytes.

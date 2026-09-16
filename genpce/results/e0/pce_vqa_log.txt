@@ -1,0 +1,38 @@
+reg3_m60_s0      L= 2 2q=  5 init=0 steps= 332 r_raw=0.807 r_ls=0.880    22s
+reg3_m60_s0      L= 2 2q=  5 init=1 steps= 732 r_raw=0.771 r_ls=0.916    35s
+reg3_m60_s0      L= 4 2q= 10 init=0 steps=1161 r_raw=0.843 r_ls=0.904   121s
+reg3_m60_s0      L= 4 2q= 10 init=1 steps=1194 r_raw=0.855 r_ls=0.940    98s
+reg3_m60_s0      L= 8 2q= 20 init=0 steps=1689 r_raw=0.952 r_ls=0.952   256s
+reg3_m60_s0      L= 8 2q= 20 init=1 steps=1899 r_raw=0.976 r_ls=0.976   203s
+reg3_m60_s0      L=12 2q= 30 init=0 steps=1565 r_raw=0.940 r_ls=0.940   194s
+reg3_m60_s0      L=12 2q= 30 init=1 steps=1651 r_raw=0.904 r_ls=0.904   213s
+reg3_m60_s1      L= 2 2q=  5 init=0 steps= 354 r_raw=0.778 r_ls=0.901     9s
+reg3_m60_s1      L= 2 2q=  5 init=1 steps= 524 r_raw=0.753 r_ls=0.889    13s
+reg3_m60_s1      L= 4 2q= 10 init=0 steps=1129 r_raw=0.840 r_ls=0.938    52s
+reg3_m60_s1      L= 4 2q= 10 init=1 steps=1514 r_raw=0.877 r_ls=0.926    68s
+reg3_m60_s1      L= 8 2q= 20 init=0 steps=2485 r_raw=0.938 r_ls=0.938   239s
+reg3_m60_s1      L= 8 2q= 20 init=1 steps=1912 r_raw=0.926 r_ls=0.926   167s
+reg3_m60_s1      L=12 2q= 30 init=0 steps=1122 r_raw=0.975 r_ls=0.975   145s
+reg3_m60_s1      L=12 2q= 30 init=1 steps=1941 r_raw=0.951 r_ls=0.951   247s
+reg3_m104_s0     L= 2 2q=  6 init=0 steps= 880 r_raw=0.775 r_ls=0.915    27s
+reg3_m104_s0     L= 2 2q=  6 init=1 steps= 775 r_raw=0.746 r_ls=0.908    23s
+reg3_m104_s0     L= 4 2q= 12 init=0 steps=1205 r_raw=0.831 r_ls=0.887    65s
+reg3_m104_s0     L= 4 2q= 12 init=1 steps=1720 r_raw=0.810 r_ls=0.901    93s
+reg3_m104_s0     L= 8 2q= 24 init=0 steps=2028 r_raw=0.937 r_ls=0.958   208s
+reg3_m104_s0     L= 8 2q= 24 init=1 steps=2118 r_raw=0.901 r_ls=0.937   221s
+reg3_m104_s0     L=12 2q= 36 init=0 steps=1861 r_raw=0.965 r_ls=0.965   299s
+reg3_m104_s0     L=12 2q= 36 init=1 steps=2243 r_raw=0.937 r_ls=0.937  2695s
+reg3_m104_s1     L= 2 2q=  6 init=0 steps= 547 r_raw=0.715 r_ls=0.875    16s
+reg3_m104_s1     L= 2 2q=  6 init=1 steps= 795 r_raw=0.701 r_ls=0.875    24s
+reg3_m104_s1     L= 4 2q= 12 init=0 steps=1135 r_raw=0.792 r_ls=0.931    65s
+reg3_m104_s1     L= 4 2q= 12 init=1 steps=1948 r_raw=0.833 r_ls=0.910   118s
+reg3_m104_s1     L= 8 2q= 24 init=0 steps=3000 r_raw=0.903 r_ls=0.910   294s
+reg3_m104_s1     L= 8 2q= 24 init=1 steps=2194 r_raw=0.875 r_ls=0.903   172s
+reg3_m104_s1     L=12 2q= 36 init=0 steps=2071 r_raw=0.924 r_ls=0.938   228s
+reg3_m104_s1     L=12 2q= 36 init=1 steps=2235 r_raw=0.944 r_ls=0.951  4812s
+reg3_m168_s0     L= 2 2q=  7 init=0 steps= 554 r_raw=0.747 r_ls=0.900    14s
+reg3_m168_s0     L= 2 2q=  7 init=1 steps=1467 r_raw=0.694 r_ls=0.956    39s
+reg3_m168_s0     L= 4 2q= 14 init=0 steps=1551 r_raw=0.799 r_ls=0.913    80s
+reg3_m168_s0     L= 4 2q= 14 init=1 steps=1001 r_raw=0.803 r_ls=0.948    61s
+reg3_m168_s0     L= 8 2q= 28 init=0 steps=1560 r_raw=0.891 r_ls=0.943   170s
+reg3_m168_s0     L= 8 2q= 28 init=1 steps=1631 r_raw=0.886 r_ls=0.930   180s

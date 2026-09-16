@@ -1,0 +1,96 @@
+reg3_m60_s2    es_1_2          run=0 raw=0.889 1000sh=0.822 to0.85=5010 to0.9=None 74s
+reg3_m60_s2    es_1_2          run=1 raw=0.827 1000sh=0.745 to0.85=None to0.9=None 72s
+reg3_m60_s2    es_1_2          run=2 raw=0.877 1000sh=0.739 to0.85=2260 to0.9=None 70s
+reg3_m60_s2    es_1_2          run=3 raw=0.889 1000sh=0.781 to0.85=1760 to0.9=None 66s
+reg3_m60_s2    es_1_2          run=4 raw=0.852 1000sh=0.738 to0.85=4760 to0.9=None 79s
+reg3_m60_s2    es_single       run=0 raw=0.827 1000sh=0.735 to0.85=None to0.9=None 72s
+reg3_m60_s2    es_single       run=1 raw=0.840 1000sh=0.775 to0.85=None to0.9=None 78s
+reg3_m60_s2    es_single       run=2 raw=0.926 1000sh=0.846 to0.85=1010 to0.9=1260 81s
+reg3_m60_s2    es_single       run=3 raw=0.815 1000sh=0.694 to0.85=None to0.9=None 80s
+reg3_m60_s2    es_single       run=4 raw=0.901 1000sh=0.827 to0.85=2010 to0.9=4510 84s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_learned      run=0 raw=0.889 1000sh=0.862 to0.85=1510 to0.9=None 683s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_learned      run=1 raw=0.877 1000sh=0.782 to0.85=6010 to0.9=None 680s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_learned      run=2 raw=0.926 1000sh=0.850 to0.85=760 to0.9=1510 675s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_learned      run=3 raw=0.864 1000sh=0.704 to0.85=1510 to0.9=None 683s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_learned      run=4 raw=0.889 1000sh=0.796 to0.85=3510 to0.9=None 4844s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_transfer_dc  run=0 raw=0.827 1000sh=0.681 to0.85=None to0.9=None 655s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_transfer_dc  run=1 raw=0.889 1000sh=0.822 to0.85=2010 to0.9=None 651s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_transfer_dc  run=2 raw=0.914 1000sh=0.753 to0.85=760 to0.9=2760 645s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_transfer_dc  run=3 raw=0.877 1000sh=0.700 to0.85=1260 to0.9=None 671s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s2    es_transfer_dc  run=4 raw=0.864 1000sh=0.779 to0.85=2760 to0.9=None 646s
+reg3_m60_s3    es_1_2          run=0 raw=0.817 1000sh=0.668 to0.85=None to0.9=None 81s
+reg3_m60_s3    es_1_2          run=1 raw=0.866 1000sh=0.754 to0.85=8510 to0.9=None 70s
+reg3_m60_s3    es_1_2          run=2 raw=0.890 1000sh=0.767 to0.85=1010 to0.9=None 68s
+reg3_m60_s3    es_1_2          run=3 raw=0.902 1000sh=0.811 to0.85=1260 to0.9=2260 69s
+reg3_m60_s3    es_1_2          run=4 raw=0.890 1000sh=0.824 to0.85=3260 to0.9=None 72s
+reg3_m60_s3    es_single       run=0 raw=0.841 1000sh=0.746 to0.85=None to0.9=None 81s
+reg3_m60_s3    es_single       run=1 raw=0.890 1000sh=0.768 to0.85=1260 to0.9=None 80s
+reg3_m60_s3    es_single       run=2 raw=0.854 1000sh=0.793 to0.85=1760 to0.9=None 76s
+reg3_m60_s3    es_single       run=3 raw=0.854 1000sh=0.781 to0.85=2510 to0.9=None 75s
+reg3_m60_s3    es_single       run=4 raw=0.854 1000sh=0.734 to0.85=6510 to0.9=None 77s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_learned      run=0 raw=0.866 1000sh=0.754 to0.85=4010 to0.9=None 623s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_learned      run=1 raw=0.866 1000sh=0.768 to0.85=2010 to0.9=None 623s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_learned      run=2 raw=0.878 1000sh=0.693 to0.85=5260 to0.9=None 630s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_learned      run=3 raw=0.915 1000sh=0.842 to0.85=760 to0.9=2260 643s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_learned      run=4 raw=0.878 1000sh=0.740 to0.85=4010 to0.9=None 630s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_transfer_dc  run=0 raw=0.854 1000sh=0.720 to0.85=3260 to0.9=None 657s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_transfer_dc  run=1 raw=0.902 1000sh=0.751 to0.85=1010 to0.9=1510 623s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_transfer_dc  run=2 raw=0.890 1000sh=0.813 to0.85=2260 to0.9=None 653s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_transfer_dc  run=3 raw=0.854 1000sh=0.811 to0.85=4510 to0.9=None 647s
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\mutation.py:165: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, cfg.n_layers)
+reg3_m60_s3    es_transfer_dc  run=4 raw=0.878 1000sh=0.666 to0.85=2260 to0.9=None 642s
+
+=== per-arm summary (all runs)
+                 n  raw_mean  raw_sd  raw_median  shots  reach85  reach90  e85_median      secs
+arm                                                                                            
+es_1_2          10     0.870   0.029       0.883  0.765      0.8      0.1      4010.0    72.186
+es_learned      10     0.885   0.021       0.878  0.779      1.0      0.2      2760.0  1071.376
+es_single       10     0.860   0.035       0.854  0.770      0.6      0.2      4510.0    78.425
+es_transfer_dc  10     0.875   0.026       0.877  0.750      0.9      0.2      2260.0   649.037
+
+=== paired against es_1_2 (pairs = instance × seed)
+           arm  pairs  d_raw_mean  d_raw_sd       t  p_ttest  p_wilcoxon  wins  ties  speedup_to_0.85  p_e85
+    es_learned     10      0.0148    0.0289  1.6176   0.1402      0.2344     5     2           1.7590 0.1024
+     es_single     10     -0.0098    0.0467 -0.6629   0.5240      0.5391     5     0           0.8047 0.5905
+es_transfer_dc     10      0.0049    0.0398  0.3911   0.7048      0.7031     5     1           1.6675 0.2618
+
+(speedup > 1 means the arm reaches 0.85 in fewer circuit executions than the baseline)

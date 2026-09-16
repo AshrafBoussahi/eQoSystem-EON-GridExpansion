@@ -1,0 +1,2 @@
+family,m,n,instance,run,best_known,budget,ratio_raw,ratio_ls,ratio_1000shots,ratio_4000shots,median_abs_corr,evals_to_0.75,evals_to_0.8,evals_to_0.85,evals_to_0.9,seconds
+reg3,858,13,reg3_m858_s0,0,1185.0,150000,0.660759493670886,0.8818565400843882,0.5555274261603376,0.5638396624472574,0.01146625653586878,,,,,3795.990932799992

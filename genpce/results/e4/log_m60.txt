@@ -1,0 +1,73 @@
+SOURCE reg3_m60_s0      best=0.867 med|c|=0.051 hits={'hit_0.8': 1010, 'hit_0.85': 7660, 'hit_0.9': None}
+SOURCE reg3_m60_s1      best=0.889 med|c|=0.086 hits={'hit_0.8': 310, 'hit_0.85': 2560, 'hit_0.9': None}
+SOURCE reg3_m60_s2      best=0.877 med|c|=0.060 hits={'hit_0.8': 410, 'hit_0.85': 2210, 'hit_0.9': None}
+SOURCE reg3_m60_s3      best=0.902 med|c|=0.119 hits={'hit_0.8': 510, 'hit_0.85': 1210, 'hit_0.9': 2060}
+SOURCE reg3_m60_s4      best=0.841 med|c|=0.058 hits={'hit_0.8': 2260, 'hit_0.85': None, 'hit_0.9': None}
+SOURCE reg3_m60_s5      best=0.864 med|c|=0.075 hits={'hit_0.8': 560, 'hit_0.85': 5010, 'hit_0.9': None}
+SOURCE er4_m60_s0       best=0.869 med|c|=0.070 hits={'hit_0.8': 210, 'hit_0.85': 1260, 'hit_0.9': None}
+SOURCE er4_m60_s1       best=0.930 med|c|=0.123 hits={'hit_0.8': 310, 'hit_0.85': 610, 'hit_0.9': 1210}
+SOURCE er4_m60_s2       best=0.863 med|c|=0.094 hits={'hit_0.8': 160, 'hit_0.85': 5260, 'hit_0.9': None}
+SOURCE er4_m60_s3       best=0.881 med|c|=0.050 hits={'hit_0.8': 360, 'hit_0.85': 1360, 'hit_0.9': None}
+SOURCE er4_m60_s4       best=0.922 med|c|=0.081 hits={'hit_0.8': 1510, 'hit_0.85': 2560, 'hit_0.9': 4160}
+SOURCE er4_m60_s5       best=0.891 med|c|=0.147 hits={'hit_0.8': 360, 'hit_0.85': 710, 'hit_0.9': None}
+PRIOR trained on 2140 elites: val NLL/token=0.069 (uniform 3.219), train NLL/token=0.006, steps=201, mean token entropy=3.16 nats
+TARGET reg3_m60_s6      prior samples: mean=0.555 max=0.802 med|c|=0.055 | random: mean=0.557 max=0.741 med|c|=0.052
+  reg3_m60_s6      cold        run=0 final=0.926 (+LS 0.938) hits={'hit_0.8': 1210, 'hit_0.85': 1210, 'hit_0.9': 2610}
+  reg3_m60_s6      prior_init  run=0 final=0.877 (+LS 0.938) hits={'hit_0.8': 310, 'hit_0.85': 1110, 'hit_0.9': None}
+  reg3_m60_s6      prior_prop  run=0 final=0.877 (+LS 0.926) hits={'hit_0.8': 510, 'hit_0.85': 910, 'hit_0.9': None}
+  reg3_m60_s6      db_rescore  run=0 final=0.864 (+LS 0.938) hits={'hit_0.8': 10, 'hit_0.85': 360, 'hit_0.9': None}
+  reg3_m60_s6      cold        run=1 final=0.889 (+LS 0.963) hits={'hit_0.8': 1310, 'hit_0.85': 2410, 'hit_0.9': None}
+  reg3_m60_s6      prior_init  run=1 final=0.877 (+LS 0.926) hits={'hit_0.8': 860, 'hit_0.85': 7210, 'hit_0.9': None}
+  reg3_m60_s6      prior_prop  run=1 final=0.877 (+LS 0.951) hits={'hit_0.8': 360, 'hit_0.85': 10060, 'hit_0.9': None}
+  reg3_m60_s6      db_rescore  run=1 final=0.914 (+LS 0.938) hits={'hit_0.8': 10, 'hit_0.85': 1510, 'hit_0.9': 2260}
+TARGET reg3_m60_s7      prior samples: mean=0.561 max=0.738 med|c|=0.055 | random: mean=0.560 max=0.750 med|c|=0.053
+  reg3_m60_s7      cold        run=0 final=0.850 (+LS 0.950) hits={'hit_0.8': 410, 'hit_0.85': 1960, 'hit_0.9': None}
+  reg3_m60_s7      prior_init  run=0 final=0.925 (+LS 0.938) hits={'hit_0.8': 810, 'hit_0.85': 2810, 'hit_0.9': 4860}
+  reg3_m60_s7      prior_prop  run=0 final=0.887 (+LS 0.938) hits={'hit_0.8': 1660, 'hit_0.85': 2310, 'hit_0.9': None}
+  reg3_m60_s7      db_rescore  run=0 final=0.925 (+LS 0.963) hits={'hit_0.8': 10, 'hit_0.85': 610, 'hit_0.9': 5960}
+  reg3_m60_s7      cold        run=1 final=0.875 (+LS 0.975) hits={'hit_0.8': 610, 'hit_0.85': 2760, 'hit_0.9': None}
+  reg3_m60_s7      prior_init  run=1 final=0.887 (+LS 0.950) hits={'hit_0.8': 660, 'hit_0.85': 1660, 'hit_0.9': None}
+  reg3_m60_s7      prior_prop  run=1 final=0.875 (+LS 0.925) hits={'hit_0.8': 610, 'hit_0.85': 1860, 'hit_0.9': None}
+  reg3_m60_s7      db_rescore  run=1 final=0.912 (+LS 0.975) hits={'hit_0.8': 10, 'hit_0.85': 560, 'hit_0.9': 4210}
+TARGET reg3_m60_s8      prior samples: mean=0.543 max=0.735 med|c|=0.055 | random: mean=0.542 max=0.687 med|c|=0.050
+  reg3_m60_s8      cold        run=0 final=0.855 (+LS 0.940) hits={'hit_0.8': 2610, 'hit_0.85': 7410, 'hit_0.9': None}
+  reg3_m60_s8      prior_init  run=0 final=0.892 (+LS 0.916) hits={'hit_0.8': 2060, 'hit_0.85': 3610, 'hit_0.9': None}
+  reg3_m60_s8      prior_prop  run=0 final=0.795 (+LS 0.880) hits={'hit_0.8': None, 'hit_0.85': None, 'hit_0.9': None}
+  reg3_m60_s8      db_rescore  run=0 final=0.880 (+LS 0.892) hits={'hit_0.8': 1160, 'hit_0.85': 2060, 'hit_0.9': None}
+  reg3_m60_s8      cold        run=1 final=0.807 (+LS 0.867) hits={'hit_0.8': 1360, 'hit_0.85': None, 'hit_0.9': None}
+  reg3_m60_s8      prior_init  run=1 final=0.867 (+LS 0.928) hits={'hit_0.8': 810, 'hit_0.85': 3060, 'hit_0.9': None}
+  reg3_m60_s8      prior_prop  run=1 final=0.880 (+LS 0.940) hits={'hit_0.8': 810, 'hit_0.85': 3260, 'hit_0.9': None}
+  reg3_m60_s8      db_rescore  run=1 final=0.855 (+LS 0.928) hits={'hit_0.8': 1560, 'hit_0.85': 5260, 'hit_0.9': None}
+TARGET er4_m60_s6       prior samples: mean=0.593 max=0.762 med|c|=0.055 | random: mean=0.591 max=0.772 med|c|=0.051
+  er4_m60_s6       cold        run=0 final=0.851 (+LS 0.881) hits={'hit_0.8': 560, 'hit_0.85': 8060, 'hit_0.9': None}
+  er4_m60_s6       prior_init  run=0 final=0.861 (+LS 0.921) hits={'hit_0.8': 760, 'hit_0.85': 1560, 'hit_0.9': None}
+  er4_m60_s6       prior_prop  run=0 final=0.891 (+LS 0.931) hits={'hit_0.8': 410, 'hit_0.85': 1310, 'hit_0.9': None}
+  er4_m60_s6       db_rescore  run=0 final=0.950 (+LS 0.980) hits={'hit_0.8': 10, 'hit_0.85': 160, 'hit_0.9': 1560}
+  er4_m60_s6       cold        run=1 final=0.861 (+LS 0.881) hits={'hit_0.8': 760, 'hit_0.85': 2110, 'hit_0.9': None}
+  er4_m60_s6       prior_init  run=1 final=0.891 (+LS 0.931) hits={'hit_0.8': 460, 'hit_0.85': 2510, 'hit_0.9': None}
+  er4_m60_s6       prior_prop  run=1 final=0.931 (+LS 0.980) hits={'hit_0.8': 660, 'hit_0.85': 660, 'hit_0.9': 1510}
+  er4_m60_s6       db_rescore  run=1 final=0.970 (+LS 0.980) hits={'hit_0.8': 10, 'hit_0.85': 210, 'hit_0.9': 560}
+TARGET er4_m60_s7       prior samples: mean=0.603 max=0.778 med|c|=0.055 | random: mean=0.603 max=0.798 med|c|=0.053
+  er4_m60_s7       cold        run=0 final=0.869 (+LS 0.919) hits={'hit_0.8': 460, 'hit_0.85': 12260, 'hit_0.9': None}
+  er4_m60_s7       prior_init  run=0 final=0.909 (+LS 0.929) hits={'hit_0.8': 510, 'hit_0.85': 1010, 'hit_0.9': 2860}
+  er4_m60_s7       prior_prop  run=0 final=0.828 (+LS 0.879) hits={'hit_0.8': 1210, 'hit_0.85': None, 'hit_0.9': None}
+  er4_m60_s7       db_rescore  run=0 final=0.859 (+LS 0.879) hits={'hit_0.8': 10, 'hit_0.85': 1060, 'hit_0.9': None}
+  er4_m60_s7       cold        run=1 final=0.879 (+LS 0.919) hits={'hit_0.8': 760, 'hit_0.85': 1860, 'hit_0.9': None}
+  er4_m60_s7       prior_init  run=1 final=0.879 (+LS 0.909) hits={'hit_0.8': 610, 'hit_0.85': 3110, 'hit_0.9': None}
+  er4_m60_s7       prior_prop  run=1 final=0.889 (+LS 0.909) hits={'hit_0.8': 1460, 'hit_0.85': 3360, 'hit_0.9': None}
+  er4_m60_s7       db_rescore  run=1 final=0.889 (+LS 0.929) hits={'hit_0.8': 10, 'hit_0.85': 1560, 'hit_0.9': None}
+TARGET er4_m60_s8       prior samples: mean=0.599 max=0.770 med|c|=0.055 | random: mean=0.605 max=0.770 med|c|=0.050
+  er4_m60_s8       cold        run=0 final=0.850 (+LS 0.910) hits={'hit_0.8': 260, 'hit_0.85': 3510, 'hit_0.9': None}
+  er4_m60_s8       prior_init  run=0 final=0.880 (+LS 0.940) hits={'hit_0.8': 1360, 'hit_0.85': 3560, 'hit_0.9': None}
+  er4_m60_s8       prior_prop  run=0 final=0.870 (+LS 0.890) hits={'hit_0.8': 560, 'hit_0.85': 6660, 'hit_0.9': None}
+  er4_m60_s8       db_rescore  run=0 final=0.880 (+LS 0.960) hits={'hit_0.8': 10, 'hit_0.85': 110, 'hit_0.9': None}
+  er4_m60_s8       cold        run=1 final=0.880 (+LS 0.950) hits={'hit_0.8': 610, 'hit_0.85': 1860, 'hit_0.9': None}
+  er4_m60_s8       prior_init  run=1 final=0.930 (+LS 0.960) hits={'hit_0.8': 260, 'hit_0.85': 1310, 'hit_0.9': 7460}
+  er4_m60_s8       prior_prop  run=1 final=0.880 (+LS 0.980) hits={'hit_0.8': 160, 'hit_0.85': 410, 'hit_0.9': None}
+  er4_m60_s8       db_rescore  run=1 final=0.910 (+LS 0.980) hits={'hit_0.8': 10, 'hit_0.85': 160, 'hit_0.9': 12710}
+            ratio_raw  ratio_ls  hit_0_8  hit_0_85  hit_0_9  n_hit_0_9   n
+method                                                                    
+cold            0.866     0.925    685.0    2410.0   2610.0          1  12
+db_rescore      0.901     0.945     10.0     585.0   3235.0          6  12
+prior_init      0.890     0.932    710.0    2660.0   4860.0          3  12
+prior_prop      0.873     0.927    610.0    2085.0   1510.0          1  12

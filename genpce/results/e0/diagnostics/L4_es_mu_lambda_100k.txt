@@ -1,0 +1,22 @@
+  gen=   0 evals=    60 best=0.651 mu-mean=0.619    0s
+  gen= 100 evals=  5060 best=0.831 mu-mean=0.831   22s
+  gen= 200 evals= 10060 best=0.831 mu-mean=0.831   44s
+  gen= 300 evals= 15060 best=0.831 mu-mean=0.831   66s
+  gen= 400 evals= 20060 best=0.831 mu-mean=0.831   88s
+  gen= 500 evals= 25060 best=0.867 mu-mean=0.864  110s
+  gen= 600 evals= 30060 best=0.867 mu-mean=0.867  132s
+  gen= 700 evals= 35060 best=0.867 mu-mean=0.867  155s
+  gen= 800 evals= 40060 best=0.867 mu-mean=0.867  177s
+  gen= 900 evals= 45060 best=0.867 mu-mean=0.867  199s
+  gen=1000 evals= 50060 best=0.867 mu-mean=0.867  221s
+  gen=1100 evals= 55060 best=0.867 mu-mean=0.867  243s
+  gen=1200 evals= 60060 best=0.867 mu-mean=0.867  265s
+  gen=1300 evals= 65060 best=0.867 mu-mean=0.867  287s
+  gen=1400 evals= 70060 best=0.867 mu-mean=0.867  309s
+  gen=1500 evals= 75060 best=0.867 mu-mean=0.867  332s
+  gen=1600 evals= 80060 best=0.867 mu-mean=0.867  355s
+  gen=1700 evals= 85060 best=0.867 mu-mean=0.867  377s
+  gen=1800 evals= 90060 best=0.867 mu-mean=0.867  400s
+  gen=1900 evals= 95060 best=0.867 mu-mean=0.867  422s
+  gen=1999 evals=100010 best=0.867 mu-mean=0.867  443s
+DONE (mu+lambda)-ES best raw=0.867 +LS=0.916 median|c|=0.063

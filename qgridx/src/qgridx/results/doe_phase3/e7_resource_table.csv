@@ -1,0 +1,10 @@
+family,case,n_qubits,k,m_decisions,compression,meas_settings,gates_1q,gates_2q,routed_2q,routed_depth,shots_per_setting,train_evals,source,wall_clock_h
+grid siting (GQE),IEEE-118,6,2,45,7.5:1,3,4.0,14.0,35.0,64.66666666666667,1024,10000,hardware-results/candidates.csv,
+grid siting (GQE),IEEE-118,7,3,105,15.0:1,3,5.0,16.0,40.666666666666664,80.66666666666667,1024,10000,hardware-results/candidates.csv,
+grid siting (GQE),IEEE-14,6,2,45,7.5:1,3,4.0,15.0,31.0,54.0,1024,10000,hardware-results/candidates.csv,
+MaxCut scaling (GQE),"n=9,k=3",9,3,252,28:1,3,,,,15.0,exact (sim),10000,Project 2/results/phase3_scaling_results.json,0.182
+MaxCut scaling (GQE),"n=10,k=3",10,3,360,36:1,3,,,,17.0,exact (sim),10000,Project 2/results/phase3_scaling_results.json,0.171
+MaxCut scaling (GQE),"n=10,k=4",10,4,630,63:1,3,,,,30.0,exact (sim),10000,Project 2/results/phase3_scaling_results.json,0.246
+MaxCut scaling (GQE),"n=11,k=5",11,5,1386,126:1,3,,,,45.0,exact (sim),10000,Project 2/results/phase3_scaling_results.json,0.511
+MaxCut scaling (GQE),"n=12,k=6",12,6,2772,231:1,3,,,,60.0,exact (sim),10000,Project 2/results/phase3_scaling_results.json,0.911
+MaxCut scaling (GQE),"n=15,k=5",15,5,9009,601:1,3,,,,120.0,exact (sim),10000,Project 2/results/phase3_scaling_results.json,30.409

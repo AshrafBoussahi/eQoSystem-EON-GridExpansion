@@ -1,0 +1,67 @@
+H=0.0 mut=0.5 elite=0.05 template=1 lr=0.001 iter=5 reward=cut pool=fine N=48 ns=50 loss=cem buf=1000 | vocab 25
+C:\Users\Ashra\Desktop\GQE+PCE Project\genpce\train\gqe.py:278: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:839.)
+  return float(loss)
+  ep=  0 evals=   50 beta=1.02 mean=0.549 max_ep=0.675 best=0.675 ls=0.892 uniq=1.00 2q=20 H=3.04/3.22 min|c|=0.003    1s
+  ep= 20 evals= 1050 beta=1.42 mean=0.567 max_ep=0.675 best=0.723 ls=0.867 uniq=0.98 2q=20 H=0.40/3.22 min|c|=0.000   23s
+  ep= 40 evals= 2050 beta=1.82 mean=0.673 max_ep=0.735 best=0.747 ls=0.855 uniq=0.50 2q=20 H=0.03/3.22 min|c|=0.000   55s
+  ep= 60 evals= 3050 beta=2.22 mean=0.706 max_ep=0.747 best=0.759 ls=0.843 uniq=0.48 2q=20 H=0.03/3.22 min|c|=0.000   86s
+  ep= 80 evals= 4050 beta=2.62 mean=0.698 max_ep=0.771 best=0.771 ls=0.880 uniq=0.56 2q=20 H=0.01/3.22 min|c|=0.001  118s
+  ep=100 evals= 5050 beta=3.02 mean=0.713 max_ep=0.783 best=0.783 ls=0.916 uniq=0.54 2q=20 H=0.01/3.22 min|c|=0.000  150s
+  ep=120 evals= 6050 beta=3.42 mean=0.711 max_ep=0.795 best=0.795 ls=0.916 uniq=0.68 2q=20 H=0.04/3.22 min|c|=0.001  181s
+  ep=140 evals= 7050 beta=3.82 mean=0.725 max_ep=0.795 best=0.795 ls=0.916 uniq=0.56 2q=20 H=0.04/3.22 min|c|=0.000  212s
+  ep=160 evals= 8050 beta=4.22 mean=0.658 max_ep=0.795 best=0.795 ls=0.916 uniq=0.72 2q=20 H=0.04/3.22 min|c|=0.000  243s
+  ep=180 evals= 9050 beta=4.62 mean=0.723 max_ep=0.795 best=0.795 ls=0.916 uniq=0.62 2q=20 H=0.03/3.22 min|c|=0.000  275s
+  ep=200 evals=10050 beta=5.02 mean=0.710 max_ep=0.795 best=0.795 ls=0.916 uniq=0.68 2q=20 H=0.03/3.22 min|c|=0.000  306s
+  ep=220 evals=11050 beta=5.42 mean=0.717 max_ep=0.795 best=0.795 ls=0.916 uniq=0.56 2q=20 H=0.03/3.22 min|c|=0.000  339s
+  ep=240 evals=12050 beta=5.82 mean=0.737 max_ep=0.795 best=0.795 ls=0.916 uniq=0.48 2q=20 H=0.03/3.22 min|c|=0.000  371s
+  ep=260 evals=13050 beta=6.22 mean=0.699 max_ep=0.795 best=0.795 ls=0.916 uniq=0.76 2q=20 H=0.05/3.22 min|c|=0.000  403s
+  ep=280 evals=14050 beta=6.62 mean=0.733 max_ep=0.795 best=0.795 ls=0.916 uniq=0.68 2q=20 H=0.06/3.22 min|c|=0.000  435s
+  ep=300 evals=15050 beta=7.02 mean=0.737 max_ep=0.795 best=0.795 ls=0.916 uniq=0.62 2q=20 H=0.05/3.22 min|c|=0.000  467s
+  ep=320 evals=16050 beta=7.42 mean=0.720 max_ep=0.795 best=0.795 ls=0.916 uniq=0.84 2q=20 H=0.07/3.22 min|c|=0.000  498s
+  ep=340 evals=17050 beta=7.82 mean=0.703 max_ep=0.795 best=0.795 ls=0.916 uniq=0.94 2q=20 H=0.07/3.22 min|c|=0.000  530s
+  ep=360 evals=18050 beta=8.22 mean=0.730 max_ep=0.795 best=0.795 ls=0.916 uniq=0.76 2q=20 H=0.06/3.22 min|c|=0.000  563s
+  ep=380 evals=19050 beta=8.62 mean=0.743 max_ep=0.795 best=0.795 ls=0.916 uniq=0.78 2q=20 H=0.08/3.22 min|c|=0.000  595s
+  ep=400 evals=20050 beta=9.02 mean=0.732 max_ep=0.795 best=0.795 ls=0.916 uniq=0.76 2q=20 H=0.07/3.22 min|c|=0.000  627s
+  ep=420 evals=21050 beta=9.42 mean=0.727 max_ep=0.795 best=0.795 ls=0.916 uniq=0.74 2q=20 H=0.07/3.22 min|c|=0.000  662s
+  ep=440 evals=22050 beta=9.82 mean=0.725 max_ep=0.795 best=0.795 ls=0.916 uniq=0.78 2q=20 H=0.07/3.22 min|c|=0.000  701s
+  ep=460 evals=23050 beta=10.22 mean=0.713 max_ep=0.795 best=0.795 ls=0.916 uniq=0.74 2q=20 H=0.06/3.22 min|c|=0.000  740s
+  ep=480 evals=24050 beta=10.62 mean=0.719 max_ep=0.795 best=0.795 ls=0.916 uniq=0.78 2q=20 H=0.08/3.22 min|c|=0.000  772s
+  ep=500 evals=25050 beta=11.02 mean=0.733 max_ep=0.795 best=0.795 ls=0.916 uniq=0.62 2q=20 H=0.07/3.22 min|c|=0.000  804s
+  ep=520 evals=26050 beta=11.42 mean=0.713 max_ep=0.795 best=0.795 ls=0.916 uniq=0.74 2q=20 H=0.07/3.22 min|c|=0.000  835s
+  ep=540 evals=27050 beta=11.82 mean=0.713 max_ep=0.795 best=0.795 ls=0.916 uniq=0.94 2q=20 H=0.10/3.22 min|c|=0.000  867s
+  ep=560 evals=28050 beta=12.22 mean=0.721 max_ep=0.795 best=0.795 ls=0.916 uniq=0.92 2q=20 H=0.13/3.22 min|c|=0.000  898s
+  ep=580 evals=29050 beta=12.62 mean=0.731 max_ep=0.795 best=0.795 ls=0.916 uniq=0.88 2q=20 H=0.12/3.22 min|c|=0.000  931s
+  ep=600 evals=30050 beta=13.02 mean=0.728 max_ep=0.795 best=0.795 ls=0.916 uniq=0.96 2q=20 H=0.13/3.22 min|c|=0.000  963s
+  ep=620 evals=31050 beta=13.42 mean=0.707 max_ep=0.795 best=0.795 ls=0.916 uniq=0.96 2q=20 H=0.14/3.22 min|c|=0.000  995s
+  ep=640 evals=32050 beta=13.82 mean=0.718 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.13/3.22 min|c|=0.000 1026s
+  ep=660 evals=33050 beta=14.22 mean=0.752 max_ep=0.795 best=0.795 ls=0.916 uniq=0.86 2q=20 H=0.12/3.22 min|c|=0.000 1058s
+  ep=680 evals=34050 beta=14.62 mean=0.711 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.13/3.22 min|c|=0.000 1089s
+  ep=700 evals=35050 beta=15.02 mean=0.712 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.13/3.22 min|c|=0.000 1121s
+  ep=720 evals=36050 beta=15.42 mean=0.755 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.13/3.22 min|c|=0.000 1153s
+  ep=740 evals=37050 beta=15.82 mean=0.723 max_ep=0.795 best=0.795 ls=0.916 uniq=0.94 2q=20 H=0.13/3.22 min|c|=0.000 1184s
+  ep=760 evals=38050 beta=16.22 mean=0.716 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.12/3.22 min|c|=0.000 1216s
+  ep=780 evals=39050 beta=16.62 mean=0.731 max_ep=0.795 best=0.795 ls=0.916 uniq=0.94 2q=20 H=0.13/3.22 min|c|=0.000 1247s
+  ep=800 evals=40050 beta=17.02 mean=0.728 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.13/3.22 min|c|=0.000 1279s
+  ep=820 evals=41050 beta=17.42 mean=0.728 max_ep=0.795 best=0.795 ls=0.916 uniq=0.90 2q=20 H=0.12/3.22 min|c|=0.000 1312s
+  ep=840 evals=42050 beta=17.82 mean=0.722 max_ep=0.795 best=0.795 ls=0.916 uniq=0.96 2q=20 H=0.14/3.22 min|c|=0.000 1343s
+  ep=860 evals=43050 beta=18.22 mean=0.699 max_ep=0.795 best=0.795 ls=0.916 uniq=0.96 2q=20 H=0.14/3.22 min|c|=0.000 1375s
+  ep=880 evals=44050 beta=18.62 mean=0.708 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.12/3.22 min|c|=0.000 1406s
+  ep=900 evals=45050 beta=19.02 mean=0.717 max_ep=0.795 best=0.795 ls=0.916 uniq=0.96 2q=20 H=0.14/3.22 min|c|=0.000 1437s
+  ep=920 evals=46050 beta=19.42 mean=0.730 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.14/3.22 min|c|=0.000 1469s
+  ep=940 evals=47050 beta=19.82 mean=0.728 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.15/3.22 min|c|=0.000 1500s
+  ep=960 evals=48050 beta=20.22 mean=0.669 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.17/3.22 min|c|=0.000 1532s
+  ep=980 evals=49050 beta=20.62 mean=0.720 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.16/3.22 min|c|=0.000 1563s
+  ep=1000 evals=50050 beta=21.02 mean=0.713 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.17/3.22 min|c|=0.000 1595s
+  ep=1020 evals=51050 beta=21.42 mean=0.704 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.17/3.22 min|c|=0.000 1627s
+  ep=1040 evals=52050 beta=21.82 mean=0.721 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.19/3.22 min|c|=0.000 1658s
+  ep=1060 evals=53050 beta=22.22 mean=0.723 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.16/3.22 min|c|=0.000 1689s
+  ep=1080 evals=54050 beta=22.62 mean=0.734 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.16/3.22 min|c|=0.000 1721s
+  ep=1100 evals=55050 beta=23.02 mean=0.700 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.17/3.22 min|c|=0.000 1753s
+  ep=1120 evals=56050 beta=23.42 mean=0.738 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.17/3.22 min|c|=0.000 1784s
+  ep=1140 evals=57050 beta=23.82 mean=0.721 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.15/3.22 min|c|=0.000 1816s
+  ep=1160 evals=58050 beta=24.22 mean=0.728 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.14/3.22 min|c|=0.000 1847s
+  ep=1180 evals=59050 beta=24.62 mean=0.713 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.16/3.22 min|c|=0.000 1878s
+  ep=1200 evals=60050 beta=25.02 mean=0.715 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.15/3.22 min|c|=0.000 1910s
+  ep=1220 evals=61050 beta=25.42 mean=0.684 max_ep=0.795 best=0.795 ls=0.916 uniq=1.00 2q=20 H=0.16/3.22 min|c|=0.000 1945s
+  ep=1240 evals=62050 beta=25.82 mean=0.735 max_ep=0.795 best=0.795 ls=0.916 uniq=0.98 2q=20 H=0.15/3.22 min|c|=0.000 1981s

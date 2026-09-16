@@ -1,0 +1,2 @@
+lr=0.001 iter=20 reward=cut pool=fine N=48 ns=50 loss=grpo buf=1000 | vocab 150
+OpenBLAS error: Memory allocation still failed after 10 retries, giving up.
