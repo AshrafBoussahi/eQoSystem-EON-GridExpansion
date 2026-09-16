@@ -6,7 +6,7 @@ authors:
   - family-names: Boussahi
     given-names: Achraf
     email: ashraf@aiqcommunity.org
-    affiliation: "AiQC; Constantine Quantum Technologies; ESI Sidi Bel Abbes"
+    affiliation: "AiQC; Constantine Quantum Technologies (CQTech); Quminex; ESI Sidi Bel Abbes"
   - family-names: Chekroun
     given-names: Abir
     affiliation: "AiQC; ESI Sidi Bel Abbes"
@@ -18,6 +18,7 @@ authors:
     affiliation: "AiQC"
   - family-names: Menacer
     given-names: Hiba
+    affiliation: "AiQC; ESI Alger"
 version: 1.0.0
 date-released: 2026-09-16
 repository-code: "https://github.com/AshrafBoussahi/eQoSystem-EON-GridExpansion"
